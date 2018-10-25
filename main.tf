@@ -289,6 +289,7 @@ resource "azurerm_virtual_machine" "k8s-master-vm" {
     "k8s-cluster" = ""
     "kube-master" = ""
     "etcd"        = ""
+    "schedule"    = "TAGS ARE NOT THE BOSS OF ME"
   }
 }
 
@@ -365,5 +366,6 @@ resource "azurerm_virtual_machine" "k8s-agent-vm" {
     "k8s-cluster" = ""
     "kube-master" = ""
     "etcd"        = ""
+    "schedule"    "TAGS ARE NOT THE BOSS OF ME"
   }
 }
